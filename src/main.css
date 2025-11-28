@@ -84,3 +84,28 @@ input {
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+ul {
+    list-style-type: none;
+    overflow: none;
+    background-color: #A3886B;
+    display: flex;
+    margin: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+
+
+}
+
+
+ul li a {
+    /*allows to specify padding and etc. */
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding: 14px;
+
+}
