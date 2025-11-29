@@ -87,7 +87,7 @@ input {
 ul {
     list-style-type: none;
     overflow: none;
-    background-color: #A3886B;
+    background-color: #DEAC9B;
     display: flex;
     margin-left: -8px;
     margin-top: 0px;
@@ -130,11 +130,10 @@ ul li a {
 }
 
 .column {
-    height: 500px;
+    height: 800px;
     text-align: center;
     font-family: Bradley Hand, cursive;
     color: whitesmoke;
-    text-decoration: underline;
     border: 5px;
     border-style: solid;
     border-color: whitesmoke;
@@ -142,16 +141,26 @@ ul li a {
 
 }
 
+
 #record {
     width: 200px;
     height: 300px;
 }
 
+
 #ipod {
+    padding-top: 50px;
+    padding-bottom: 40px;
     width: 170px;
     height: auto;
 }
 
-#left {}
+.record-wrapper {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
 
-#right {}
+.ipod-wrapper {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
