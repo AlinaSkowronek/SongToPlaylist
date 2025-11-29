@@ -124,16 +124,21 @@ ul li a {
     /*cetners contant vertically */
     align-items: center;
 
-    font-size: 25px;
-    column-rule: 4px double #ff00ff;
+    font-size: 45px;
+    padding-top: 100px;
 }
 
 .column {
-    padding-top: 100px;
+    height: 500px;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Bradley Hand, cursive;
     color: whitesmoke;
     text-decoration: underline;
+    border: 5px;
+    border-style: solid;
+    border-color: whitesmoke;
+
+
 }
 
 #left {}
