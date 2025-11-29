@@ -126,17 +126,19 @@ ul li a {
     text-align: center;
 
     font-size: 45px;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .column {
-    height: 800px;
+    height: 100%;
     text-align: center;
     font-family: Bradley Hand, cursive;
     color: whitesmoke;
     border: 5px;
     border-style: solid;
     border-color: whitesmoke;
+    margin-left: 15px;
+    margin-right: 15px;
 
 
 }
@@ -158,9 +160,11 @@ ul li a {
 .record-wrapper {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
+    padding-bottom: 50px;
 }
 
 .ipod-wrapper {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
+    padding-bottom: 50px;
 }
