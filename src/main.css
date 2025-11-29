@@ -123,6 +123,7 @@ ul li a {
     gap: 10px;
     /*cetners contant vertically */
     align-items: center;
+    text-align: center;
 
     font-size: 45px;
     padding-top: 100px;
@@ -139,6 +140,16 @@ ul li a {
     border-color: whitesmoke;
 
 
+}
+
+#record {
+    width: 200px;
+    height: 300px;
+}
+
+#ipod {
+    width: 170px;
+    height: auto;
 }
 
 #left {}
