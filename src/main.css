@@ -23,7 +23,6 @@ body {
 #header {
     grid-area: header;
     margin-top: 150px;
-    padding-bottom: 0;
     color: whitesmoke;
     font-size: 50px;
     text-align: center;
@@ -35,7 +34,7 @@ body {
     grid-area: content;
     text-align: center;
     align-items: center;
-    padding: 50px
+    padding: 0px
 }
 
 #footer {
@@ -90,13 +89,16 @@ ul {
     overflow: none;
     background-color: #A3886B;
     display: flex;
-    margin: 0;
+    margin-left: -8px;
+    margin-top: 0px;
+    padding: 0;
     top: 0;
     position: fixed;
     width: 100%;
-
+    justify-content: flex-end;
 
 }
+
 
 
 ul li a {
@@ -107,5 +109,33 @@ ul li a {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     padding: 14px;
-
 }
+
+.log-out {
+    padding-right: 50px;
+}
+
+.row {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 10px;
+    /*cetners contant vertically */
+    align-items: center;
+
+    font-size: 25px;
+    column-rule: 4px double #ff00ff;
+}
+
+.column {
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+#left {}
+
+#right {}
